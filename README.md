@@ -1,5 +1,5 @@
 # Cheetay-Test
-Question no 1:
+**Question no 1:**
 You are given a string s of lower case english alphabets. You can choose any two characters in
 the string and replace all the occurences of the first character with the second character and
 replace all the occurences of the second character with the first character. Your aim is to find the
@@ -32,7 +32,7 @@ Space: O(1)
  
 Constraints: 1&lt;= |A| &lt;=105
 
-Question: 2
+**Question: 2**
 Given a list of non negative integers, arrange them in such a manner that they form the largest
 number possible.The result is going to be very large, hence return the result in the form of a
 string.
@@ -59,7 +59,7 @@ string denoting the answer.  Expected Time Complexity: O(NlogN) Expecte
 Space: O(1)
 Constraints: 1 ≤ N ≤ 105 0 ≤ Arr[i] ≤ 1018
 
-Question no 3
+**Question no 3**
 Given a string S, find the longest palindromic substring in S. Substring of string S: S[ i . . . . j
 ] where 0 ≤ i ≤ j &lt; len(S). Palindrome string: A string which reads the same backwards. More
 formally, S is palindrome if reverse(S) = S. Incase of conflict, return the substring which occurs
@@ -85,7 +85,7 @@ substring of S.
  Expected Time Complexity: O(|S|). Expected Auxiliary Space: O(1).
  Constraints: 1&lt;=|S|&lt;=103
 
-Question no 4
+**Question no 4**
 There is one meeting room in a firm. There are N meetings in the form of (S[i],
 F[i]) where S[i] is start time of meeting i and F[i] is finish time of meeting i. What is
 the maximum number of meetings that can be accommodated in the meeting room when only

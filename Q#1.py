@@ -14,7 +14,7 @@ def choose_and_swap(A):
             if ord(new_A[i]) < ord(A[i]):
                 e_check= False
             elif ord(new_A[i]) > ord(A[i]):
-                print(f'{new_A[i]} > {A[i]}')
+                #print(f'{new_A[i]} > {A[i]}')
                 check_2 = True
                 e_check= False
     

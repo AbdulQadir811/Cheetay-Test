@@ -9,14 +9,15 @@ def choose_and_swap(A):
             new_A = new_A + "a"
         else:
             new_A = new_A + A[i]
-            
-    if (e_check == True):
-        if ord(new_A[i]) < ord(A[i]):
-            e_check= False
-        elif ord(new_A[i]) > ord(A[i]):
-            print(f'{new_A[i]} > {A[i]}')
-            check_2 = True
-            e_check= False
+       
+        if (e_check == True):
+            if ord(new_A[i]) < ord(A[i]):
+                e_check= False
+            elif ord(new_A[i]) > ord(A[i]):
+                print(f'{new_A[i]} > {A[i]}')
+                check_2 = True
+                e_check= False
+    
     
     if check_2 == True:
         return (A)
